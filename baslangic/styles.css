@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(209, 65, 94, 0.37);
+    align-items: center;
+    justify-content: center;
+}
+
+.sepeteekle {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: darkseagreen;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+.sepettensil {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: darkseagreen;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+.lütfentıklayınız {
+    margin: bottom 40px;
+    padding: 20px;
+    background-color: rgb(197, 106, 41);
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.düzenle {
+    margin-bottom: 40px;
+    padding: 40px;
+    background-color: chocolate;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}

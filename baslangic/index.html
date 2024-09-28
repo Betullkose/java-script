@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javacript</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        console.log("merhaba dünya")
+
+        function butonaTiklandi(){
+            console.log("Butona Tıklandı");
+        }
+        function sepeteekle(){
+            console.log("sepete ekle");
+            document.getElementById("sonuc").innerHTML="Ürününüz başarıyla eklendi";
+        }
+        function sepettensil(){
+            console.log("sepetten sil");
+            document.getElementById("sonuc").innerHTML="Ürününüz başarıyla silindi";
+        }
+        function düzenle(){
+            console.log("düzenle");
+        }
+
+        </script>
+</head>
+<body>
+    <input type="text" placeholder="Lütfen şifrenizi girin"
+    <p id="sonuc">Henüz Tıklanmadı</p>
+    <button class="lütfentıklayınız"onclick="butonaTiklandi()">Lütfen Tıklayınız</button>
+    <button class="sepeteekle" onclick="sepeteekle()"> Sepete Ekle</button>
+    <button class="sepettensil"onclick="sepettensil()">Sepetten Sil</button>
+    <button onclick="düzenle()">Düzenle</button>
+</html>
